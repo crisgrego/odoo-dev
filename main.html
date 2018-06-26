@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Odoo Dev</title>
+
+  <script src='pluggins/jquery/jquery-3.3.1.min.js'></script>
+  <script src='pluggins/bootstrap/js/bootstrap.min.js'></script>
+  <script src='pluggins/bootstrap/js/bootstrap-toggle.min.js'></script>
+  <script src='js/main.js'></script>
+
+  <link rel='stylesheet' type='text/css' href='pluggins/bootstrap/css/bootstrap.min.css'>
+  <link rel='stylesheet' type='text/css' href='pluggins/bootstrap/css/bootstrap-toggle.min.css'>
+  <link rel='stylesheet' type='text/css' href='css/main.css'>
+</head>
+<body>
+  <div id="app">
+    <form class="m-2">
+      <div class="form-group">
+        <label for="ip">IP</label>
+        <input id="ip" type="text" class="form-control" placeholder="192.168.10.xxx">
+      </div>
+      <div class="form-group">
+        <label for="port">Port</label>
+        <input id="port" type="text" class="form-control" placeholder="8069">
+      </div>
+      <div class="form-group">
+          <input class="mr-3" id="debug-mode" type="checkbox" checked data-toggle="toggle" data-on="Debug" data-off="Normal">
+          <button id="apply" type="button" class="btn btn-primary">Apply</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
